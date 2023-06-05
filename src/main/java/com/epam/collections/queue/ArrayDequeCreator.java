@@ -12,7 +12,7 @@ public class ArrayDequeCreator extends PriorityQueue<String> {
 
         ArrayDeque<Integer> arrayDeque = new ArrayDeque<>();
 
-         arrayDeque.offer(firstQueue.poll());
+        arrayDeque.offer(firstQueue.poll());
         arrayDeque.offer(firstQueue.poll());
         arrayDeque.offer(secondQueue.poll());
         arrayDeque.offer(secondQueue.poll());
